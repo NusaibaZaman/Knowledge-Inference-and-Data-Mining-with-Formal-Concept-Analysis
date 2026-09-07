@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Java / Maven build output
+target/
+
+# Generated data and outputs (all reproducible from the scripts)
+heart_clean.csv
+targets.txt
+context_clinical.csv
+context_entropy.csv
+results_clinical.txt
+results_entropy.txt
+feature_risk_output_clinical.csv
+feature_risk_output_entropy.csv
+figure_feature_risk_clinical.png
+figure_feature_risk_entropy.png
+summary_clinical.csv
+summary_entropy.csv
+oof_scores_clinical.csv
+oof_scores_entropy.csv
+summary_table.csv
+example_lattice.dot
+figure_3_2_lattice_example.png
+
+# Raw dataset (download separately from UCI)
+processed.cleveland.data
+
+# OS files
+.DS_Store
